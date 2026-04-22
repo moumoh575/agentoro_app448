@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Connect WhatsApp</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      margin-top: 100px;
+      background: #f7f7f7;
+    }
+    .box {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      display: inline-block;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    button {
+      background: #25D366;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h2>Connect your WhatsApp Business</h2>
+  <p>Automate your replies using our AI agent.</p>
+
+  <button onclick="connectWhatsApp()">
+    Connect WhatsApp
+  </button>
+</div>
+
+<script>
+function connectWhatsApp() {
+  window.location.href = "https://business.facebook.com/messaging/whatsapp/onboard?app_id=4436833363269286";
+}
+</script>
+
+</body>
+</html>
